@@ -1,4 +1,6 @@
-let square = document.querySelector('.fizz-buzz');
+const myContainer = document.createElement('section')
+const square = document.querySelector('.fizz-buzz');
+square.className = "square"
 
 // CICLO PER NUMERI DA 0 a 10
 for (let i = 0; i <= 100; i++) {
@@ -15,12 +17,9 @@ for (let i = 0; i <= 100; i++) {
         square.innerHTML += "<div>buzz</div>";
         console.log('Buzz');
     } else {
+        // ULTIMO CICLO NEL CASO NON FOSSERO DIVISIBILI PER 3 e 5
         square.innerHTML += "<div>" + i + "</div>"
         console.log(i);
     }
-    let square = `<span class="box box-b${i}">${i}<span>`
     console.log(square);
-    // square.append(i);
 };
-
-// console.log(square);
