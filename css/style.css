@@ -11,17 +11,17 @@ body {
     line-height: 80px;
 }
 
-.my-bg-blue {
+.fizzbuzz {
     background: rgb(9, 9, 121);
     background: linear-gradient(135deg, rgba(9, 9, 121, 1) 26%, rgba(0, 255, 4, 1) 100%);
 }
 
-.my-bg-light-blue {
+.fizz {
     background: rgb(63, 94, 251);
     background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 245, 1) 100%);
 }
 
-.my-bg-lile {
+.buzz {
     background: rgb(131, 58, 180);
     background: linear-gradient(140deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
